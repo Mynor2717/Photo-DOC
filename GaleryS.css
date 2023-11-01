@@ -1,0 +1,37 @@
+
+body {
+    margin: 1em;
+    background-color: black;
+}
+img {
+    max-width: 100%;
+    object-fit: cover;
+    margin-bottom: 0.5em;
+    display: grid;
+    outline: 2px solid #fff;
+    outline-offset: -10px;
+    border-radius: 15px;
+    gap: 20px;
+    /*object-fit: cover;*/
+}
+.Galeria {
+ columns: 5 320px;
+ column-gap: 0.5em;
+ object-fit: cover;
+ grid-template-rows: masonry;
+ align-content: center;
+
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    margin: 30px;
+    background-color: rgb(147, 66, 147);
+    padding: 20px;
+    border-radius: 25px;
+    outline: 12px double #fff;
+}
+h1:hover{
+    transition: all;
+}
